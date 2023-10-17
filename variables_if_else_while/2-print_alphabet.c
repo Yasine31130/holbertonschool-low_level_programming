@@ -5,7 +5,7 @@
  * main - DEscription
  * Return: Always 0 (success)
  */
-int main()
+int main(void)
 {
 	char a = 97;
 
@@ -15,5 +15,5 @@ int main()
 		a++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
