@@ -1,16 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabet - check the code
- *
- * Return: Always 0.
+ * _islower - check the code
+ * c: variable char 
+ * Return: Always 1 if lowercase or 0 if other
  */
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
-		return(1);
+		return (1);
 	}
 	else
-		return(0);
+		return (0);
 }
