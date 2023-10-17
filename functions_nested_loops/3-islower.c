@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _islower - check the code
- * c: variable char 
+ * @c: variable char
  * Return: Always 1 if lowercase or 0 if other
  */
 int _islower(int c)
