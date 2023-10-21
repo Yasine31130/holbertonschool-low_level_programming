@@ -8,7 +8,7 @@ int main(void)
 {
 	int i = 1;
 
-	while (i < 100)
+	while (i < 101)
 	{
 		int r = i % 3;
 		int q = i % 5;
