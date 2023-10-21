@@ -10,7 +10,7 @@ void print_square(int size)
 
 	if (size == 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	while (i < size)
 	{
@@ -18,11 +18,11 @@ void print_square(int size)
 
 		while (s < size)
 		{
-			putchar('#');
+			_putchar('#');
 			s++;
 		}
-		putchar('#');
+		_putchar('#');
 		i++;
-		putchar('\n');
+		_putchar('\n');
 	}
 }
