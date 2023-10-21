@@ -26,8 +26,11 @@ int main(void)
 		else if (q == 0)
 		{
 			printf("Buzz");
+			if (i != 100)
+			{
+				putchar(' ');
+			}
 			i++;
-			putchar(' ');
 		}
 		else
 		{
@@ -36,5 +39,6 @@ int main(void)
 			i++;
 		}
 	}
+	putchar('\n');
 	return (0);
 }
