@@ -8,15 +8,15 @@ void print_square(int size)
 {
 	int i = 0;
 
-	if (n == 0)
+	if (size == 0)
 	{
 		putchar('\n');
 	}
-	while (i < n)
+	while (i < size)
 	{
 		int s = 1;
 
-		while (s < n)
+		while (s < size)
 		{
 			putchar('#');
 			s++;
