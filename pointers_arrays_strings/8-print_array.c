@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.H>
 /**
  * print_array - description
  * @a: pointer to array 
