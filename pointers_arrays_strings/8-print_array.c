@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - description
- * @a: pointer to array 
- * @n: var num 
+ * @a: pointer to array
+ * @n: var num
  * Return: prints n elements of an array of integers
  */
 void print_array(int *a, int n)
@@ -16,7 +16,7 @@ void print_array(int *a, int n)
 		{
 			printf("%d, ", a[i]);
 		}
-		else 
+		else
 		{
 			printf("%d", a[i]);
 		}
