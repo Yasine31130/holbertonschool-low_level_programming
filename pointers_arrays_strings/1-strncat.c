@@ -5,7 +5,7 @@
  * @src: pointer
  * Return:  function appends the src string to the dest string
  */
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int x = 0;
