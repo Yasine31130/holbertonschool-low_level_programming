@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * *_strcat - description
+ * *_strncat - description
  * @dest: pointer
  * @src: pointer
+ * @n: var num of char
  * Return:  function appends the src string to the dest string
  */
 char *_strncat(char *dest, char *src, int n)
