@@ -34,4 +34,5 @@ int _atoi(char *s)
 			return (res);
 		}
 	}
+	return (res);
 }
