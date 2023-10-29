@@ -4,7 +4,7 @@
  * @s: poiter to string
  * Return: function that encodes a string into 1337
  */
-char *leet(char *)
+char *leet(char *s)
 {
 	int i;
 	int len = 0;
