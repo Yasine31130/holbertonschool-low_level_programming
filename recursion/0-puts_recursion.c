@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 /**
  * _puts_recursion - description
  * @s: pointer
@@ -14,6 +13,6 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
