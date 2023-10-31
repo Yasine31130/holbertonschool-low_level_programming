@@ -5,7 +5,7 @@
  * @mult: var num
  * Return: check square root of a number.
  */
-int sqrt(int n, int mult)
+int _sqrt(int n, int mult)
 {
 	if ((mult * mult) == n)
 	{
@@ -17,7 +17,7 @@ int sqrt(int n, int mult)
 	}
 	else
 	{
-		return (sqrt(n, mult + 1));
+		return (_sqrt(n, mult + 1));
 	}
 }
 /**
@@ -27,5 +27,5 @@ int sqrt(int n, int mult)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (_sqrt(n, 1));
 }
