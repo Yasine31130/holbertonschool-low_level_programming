@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt - description
+ * _sqrt - description
  * @n: var num
  * @mult: var num
  * Return: check square root of a number.
