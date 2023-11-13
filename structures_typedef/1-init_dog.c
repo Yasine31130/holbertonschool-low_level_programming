@@ -4,7 +4,7 @@
  * @d: struct of dog
  * @name: name of dog
  * @age: of dog
- * @ownef: of dog
+ * @owner: of dog
  * Return: function that initialize a variable
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
