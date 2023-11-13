@@ -10,8 +10,8 @@
  */
 typedef struct dog
 {
-	name = char
-	age = float
-	owner = char 
+	char *name;
+	float age;
+	char *owner;
 }
 #endif
