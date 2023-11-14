@@ -1,37 +1,60 @@
-#include"dog.h"
+#include "dog.h"
+#include <string.h>
 /**
- * new_dog - description
- * @name: of dog
- * @age: of dog
- * @owner: of dog
- * Return: function that creates a new dog
- */
-dog_t *new_dog(char *name, float age, char *owner)
-{
-	dog_t *d;
-	int lenn = strlen(name);
-	int leno = strlen(owner);
+ * _strdup - duplicate a string of char
+ * @str: pointer to a string
+ * Return: pointer to a string
+*/
 
-	d = malloc(sizeof(dog_t));
-	if (d == NULL)
-	{
-		return (NULL);
-	}
-	d->name = malloc(sizeof(char) * (lenn++));
-	if (d->name == NULL)
-	{
-		free(d);
-		return (NULL);
-	}
-	d->owner = malloc(sizeof(char) * (leno++));
-	if (d->owner == NULL)
-	{
-		free(d->name);
-		free(d);
-		return (NULL);
-	}
-	d->age = age;
-	strcpy(d->name, name);
-	strcpy(d->owner, owner);
-	return (d);
+char _strdup(charstr);
+
+char _strdup(charstr)
+{
+        char *s;
+
+        if (str == NULL)
+        {
+                return (NULL);
+        }
+        s = malloc(strlen(str) + 1);
+        if (s == NULL)
+        {
+                return (NULL);
+        }
+        {
+                strcpy(s, str);
+        }
+        return (s);
+}
+ 
+/**
+ * dog_t *new_dog - creates a new dog
+ * @name: name of new dog
+ * @age: age of new dog
+ * @owner: owner of new dog
+ * Return: pointer to new dog
+*/
+
+dog_t new_dog(charname, float age, char owner)
+{
+        dog_tnew_dog;
+
+        new_dog = malloc(sizeof(dog_t));
+        if (new_dog == NULL)
+                return (NULL);
+        new_dog->name = _strdup(name);
+        if (new_dog->name == NULL)
+        {
+                free(new_dog);
+                return (NULL);
+        }
+        new_dog->owner = _strdup(owner);
+        if (new_dog->owner == NULL)
+        {
+                free(new_dog->name);
+                free(new_dog);
+                return (NULL);
+        }
+        new_dog->age = age;
+        return (new_dog);
 }
