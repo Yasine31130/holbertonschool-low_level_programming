@@ -2,6 +2,12 @@
 #define VARIADIC_FUNCTIONS_H
 #include <stdio.h>
 #include <stdarg.h>
+/**
+ * struct formats - Description
+ * @c: char
+ * @f: function
+ * Description: Longer description
+ */
 typedef struct formats
 {
 	char c;
