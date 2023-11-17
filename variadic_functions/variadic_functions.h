@@ -4,15 +4,15 @@
 #include <stdarg.h>
 /**
  * struct formats - Description
- * @c: char
- * @f: function
+ * @ch: char
+ * @func: function
  * Description: Longer description
  */
 typedef struct formats
 {
-	char c;
-	void (*f)(va_list);
-} t;
+	char ch;
+	void (*func)(va_list);
+} ft;
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
