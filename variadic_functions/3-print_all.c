@@ -57,17 +57,17 @@ void print_all(const char * const format, ...)
 	int j = 0;
 
 	t type[] = {
-		{"c", print_char},
-		{"i", print_int},
-		{"f", print_flo},
-		{"s", print_string},
+		{'c', print_char},
+		{'i', print_int},
+		{'f', print_flo},
+		{'s', print_string},
 		{'\0', NULL}
 	};
 	va_list arg;
 
 	va_start(arg, format);
 
-	while (format != NULL && format[i] != NULL)
+	while (format != NULL && format[i])
 	{
 		while (j < 4)
 		{
