@@ -55,7 +55,7 @@ void print_str(va_list  vaptr)
 
 void print_all(const char * const format, ...)
 {
-	ft types[] = {
+	ft_t types[] = {
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
