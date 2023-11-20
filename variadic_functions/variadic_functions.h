@@ -14,7 +14,7 @@ typedef struct formats
 {
 	char ch;
 	void (*func)(va_list);
-} ft;
+} ft_t;
 
 int sum_them_all(const unsigned int n, ...);
 
